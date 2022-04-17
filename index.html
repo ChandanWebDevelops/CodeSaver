@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>Code Saver</title>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="prism.css"/>
+<script src="prism.js"></script>
+
+</head>
+<body onload="loadIt()">
+<div class="nav">
+<div class="to">
+<span>Code Saver</span>
+<!-- Original Name is Web Components -->
+</div>
+<div class="search">
+<input type="search" id="search" placeholder="Search with title"/>
+<button class="btn">Search</button>
+</div>
+</div>
+<div id="main">
+<div id="sideBar">
+<div id="add" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">+ Add Code</div>
+<ul id="firstUL">
+
+</ul>
+</div>
+
+<div class="codePart">
+<ul id="secondUL">
+
+</ul>
+</div>
+
+</div>
+
+<div id="id01" class="modal">
+
+<div class="box-form animate">
+<center>
+<h1>Type your code here</h1>
+<textarea name="textArea" id="textAreass" spellcheck="false"></textarea>
+</center>
+<div class="btnnn">
+<input autocomplete="false" type="text" id="name"/>
+<button id="post">Post</button>
+
+</div>
+</div>
+
+
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
